@@ -2,5 +2,7 @@
   "item.kawwsmod.rice": "Rice",
   "item.kawwsmod.raw_rice": "Raw Rice",
 
-  "block.kawwsmod.rice_catcher": "Rice Catcher"
+  "block.kawwsmod.rice_catcher": "Rice Catcher",
+
+  "itemgroup.kawwsmod.kawws_mod_items": "Kawws Mod"
 }
