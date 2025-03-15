@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kawwsmod",
+	"version": "${version}",
+	"name": "KawwsMod",
+	"description": "Random shit i put together",
+	"authors": [
+		"Kawws"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/kawwsmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kawws.kawwsmod.KawwsMod"
+		],
+		"fabric-datagen": [
+			"net.kawws.kawwsmod.KawwsModDataGenerator"
+		],
+		"client": [
+			"net.kawws.kawwsmod.KawwsModClient"
+		]
+	},
+	"mixins": [
+		"kawwsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
