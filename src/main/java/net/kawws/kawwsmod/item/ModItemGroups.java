@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_RICE);
                         entries.add(ModItems.RICE);
                         entries.add(ModBlocks.RICE_CATCHER);
+                        entries.add(ModItems.SUSHI);
                     }).build());
     public static void registerItemGroups() {
         KawwsMod.LOGGER.info(KawwsMod.MOD_ID+" Item Group/Groups Registered!");

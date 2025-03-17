@@ -12,6 +12,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item RICE = registerItem("rice", new Item(new Item.Settings()));
     public static final Item RAW_RICE = registerItem("raw_rice", new Item(new Item.Settings()));
+    public static final Item SUSHI = registerItem("sushi", new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(KawwsMod.MOD_ID, name), item);
